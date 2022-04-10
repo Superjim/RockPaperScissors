@@ -65,15 +65,22 @@ function game() {
     
 
 }
-
+/*
 for (let i = 0; i < 5; i++ ) {
     game();
 }
+*/
 
-if (playerScore === compScore) {
-    console.log("Draw!");
-} else if (playerScore > compScore) {
-    console.log("Player wins!");
-} else {
-    console.log("Computer wins!");
+function getWinner() {
+
+    if (playerScore === compScore) {
+        console.log("Draw!");
+    } else if (playerScore > compScore) {
+        console.log("Player wins!");
+    } else {
+        console.log("Computer wins!");
+    }
+
 }
+
+wrapper.addEventListener("click", )
