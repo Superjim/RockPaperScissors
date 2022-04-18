@@ -1,4 +1,26 @@
-div {
+body {
+
+  font-size: 20px;
+ 
+  color: black;
+  background-color:lightgrey;
+  text-align: center;
+
+
+}
+
+.buttonContainer {
     padding: 20px;
-    border: 1px solid black;
-  }
+}
+
+#rock {
+  font-size: 200px;
+}
+
+#paper {
+  font-size: 200px;
+}
+
+#scissors {
+  font-size: 200px;
+}
